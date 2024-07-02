@@ -1,0 +1,42 @@
+project:
+  type: website
+  
+website:
+  title: "Prusa Legacy Update Hub"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "3D Printers"
+        href: printers.qmd
+        menu:
+          - text: "Prusa i3 MK3S+"
+            href: printers/mk3s.qmd
+          - text: "Prusa MINI+"
+            href: printers/mini.qmd
+          - text: "Prusa XL"
+            href: printers/xl.qmd
+      - text: "Materials"
+        href: materials.qmd
+      - text: "Software"
+        href: software.qmd
+      - text: "Firmware"
+        href: firmware.qmd
+      - text: "Community"
+        href: community.qmd
+      - text: "Support"
+        href: support.qmd
+    page-footer: 
+    center: | 
+      <a href="https://lordicon.com/">Icons by Lordicon.com</a>
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+

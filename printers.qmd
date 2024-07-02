@@ -1,0 +1,6 @@
+---
+title: Printers
+listing:
+  contents: printers
+  type: grid
+---

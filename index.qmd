@@ -1,0 +1,23 @@
+---
+title: ""
+toc: false
+---
+::: {layout-ncol=2}
+
+# Old Prusas, New Possibilities!
+Whether you're nurturing a venerable Mendel, tweaking a reliable MK2, or fine-tuning your trusty MK3, you're part of a legacy that defines 3D printing.  Keeping your trusty Prusa as your daily workhorse isn't just smart—it's revolutionary. Discover how to supercharge your beloved printer with cutting-edge upgrades, transforming it into a powerhouse that rivals—or even surpasses—the latest models. Join our community of forward-thinking makers who know that with the right upgrades, a classic Prusa is not just a printer—it's a future-proof investment in your creativity. Your printers best days? They're happening right now.
+
+![](images/stylistic-mk3s.png)
+:::
+
+::: {layout-ncol=3}
+
+### Upgrade Your Way
+{{< li jdalicnn trigger=loop delay=1000 class=small >}} Discover tailored upgrades for every Prusa model, budget, and skill level. From simple tweaks to complete overhauls, find the perfect path to enhance your printer's performance and capabilities.
+
+### Community-Driven
+{{< li wzrwaorf trigger=loop delay=1000 class=small >}} Join a vibrant community of Prusa enthusiasts sharing insights, custom mods, and creative solutions. Collaborate, learn, and contribute to a collective knowledge base that keeps our printers at the cutting edge.
+
+### Sustainable
+{{< li qeemqlwz trigger=loop delay=1000 class=small >}} Extend your printer's lifespan and reduce waste. Learn how to maintain, repair, and upgrade your Prusa, turning it into a long-lasting tool for creativity and innovation while minimizing your environmental impact.
+:::
