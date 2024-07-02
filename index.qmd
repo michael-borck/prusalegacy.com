@@ -5,7 +5,7 @@ toc: false
 ::: {layout-ncol=2}
 
 # Old Prusas, New Possibilities!
-Whether you're nurturing a venerable Mendel, tweaking a reliable MK2, or fine-tuning your trusty MK3, you're part of a legacy that defines 3D printing.  Keeping your trusty Prusa as your daily workhorse isn't just smart—it's revolutionary. Discover how to supercharge your beloved printer with cutting-edge upgrades, transforming it into a powerhouse that rivals—or even surpasses—the latest models. Join our community of forward-thinking makers who know that with the right upgrades, a classic Prusa is not just a printer—it's a future-proof investment in your creativity. Your printers best days? They're happening right now.
+Whether you’re nurturing a venerable Mendel, tweaking a reliable MK2, or fine-tuning your trusty MK3, you’re part of a legacy that defines 3D printing. Keeping your trusty Prusa as your daily workhorse isn’t just smart—it’s practical. Discover how to supercharge your beloved printer with cutting-edge upgrades, transforming it into a powerhouse that rivals—or even surpasses—the latest models. Join our community of forward-thinking makers who know that with the right upgrades, a classic Prusa is not just a printer—it’s a future-proof investment in your creativity. Your printer's best days? They’re happening right now.
 
 ![](images/stylistic-mk3s.png)
 :::
