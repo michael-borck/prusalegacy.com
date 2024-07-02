@@ -28,6 +28,8 @@ website:
         href: community.qmd
       - text: "Support"
         href: support.qmd
+      - text: "Blog"
+        href: blog.qmd
     page-footer: 
     center: | 
       <a href="https://lordicon.com/">Icons by Lordicon.com</a>
