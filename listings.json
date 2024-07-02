@@ -1,5 +1,16 @@
 [
   {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/best-practices-for assembling-prusa-kit.html",
+      "/blog/diy-clone-or-kit.html",
+      "/blog/choosing-you-prusa.html",
+      "/blog/the-myth-of-upgrading.html",
+      "/blog/original-vs-copy.html",
+      "/blog/dolly-or-prusa.html"
+    ]
+  },
+  {
     "listing": "/printers.html",
     "items": [
       "/printers/xl.html",
