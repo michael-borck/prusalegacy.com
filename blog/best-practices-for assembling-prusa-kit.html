@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Michael Borck">
 
-<title>Prusa Legacy Update Hub</title>
+<title>Prusa Legacy Update Hub - Best Practices for DIY Prusa</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,10 +93,44 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../printers.html"> 
-<span class="menu-text">3D Printers</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../about/site.html">
+ <span class="dropdown-text">Site</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../about/founder.html">
+ <span class="dropdown-text">Founder</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-d-printers" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">3D Printers</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-d-printers">    
+        <li>
+    <a class="dropdown-item" href="../printers/mk3.html">
+ <span class="dropdown-text">Prusa i3 MK3/S/+</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../printers/mk2.html">
+ <span class="dropdown-text">Prusa MK2/2.5S/3S</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../printers/mini.html">
+ <span class="dropdown-text">Prusa MINI+</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../printers/clones.html">
+ <span class="dropdown-text">Clones</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../materials.html"> 
 <span class="menu-text">Materials</span></a>
@@ -113,12 +148,15 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Community</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../support.html"> 
-<span class="menu-text">Support</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -136,22 +174,39 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#best-practices-for-diy-prusa" id="toc-best-practices-for-diy-prusa" class="nav-link active" data-scroll-target="#best-practices-for-diy-prusa">Best Practices for DIY Prusa</a>
-  <ul class="collapse">
-  <li><a href="#online-manual-and-comments" id="toc-online-manual-and-comments" class="nav-link" data-scroll-target="#online-manual-and-comments">Online Manual and Comments</a></li>
+  <li><a href="#online-manual-and-comments" id="toc-online-manual-and-comments" class="nav-link active" data-scroll-target="#online-manual-and-comments">Online Manual and Comments</a></li>
   <li><a href="#organizing-parts-and-tools" id="toc-organizing-parts-and-tools" class="nav-link" data-scroll-target="#organizing-parts-and-tools">Organizing Parts and Tools</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Best Practices for DIY Prusa</h1>
+</div>
 
 
 
-<section id="best-practices-for-diy-prusa" class="level1">
-<h1>Best Practices for DIY Prusa</h1>
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Michael Borck </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <p>Assembling a DIY Prusa i3 MK3S+ kit can be a rewarding experience, offering a deep understanding of the printer’s mechanics while saving on costs. This guide outlines key best practices to ensure a smooth assembly process, from utilizing the online manual to organizing parts and taking a methodical approach to construction.</p>
 <section id="online-manual-and-comments" class="level2">
 <h2 class="anchored" data-anchor-id="online-manual-and-comments">Online Manual and Comments</h2>
@@ -168,7 +223,6 @@ ul.task-list li input[type="checkbox"] {
 <p>This organization not only saves time but also reduces frustration during the 8-9 hour assembly process. Having everything readily accessible allows for a more focused and efficient build experience.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -253,7 +307,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/michael-borck\.github\.io\/prusalegacy\.com\/");
+      var filterRegex = new RegExp("https:\/\/prusalegacy\.com\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

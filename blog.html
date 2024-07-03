@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Prusa Legacy Update Hub - Blog</title>
+<title>Prusa Legacy Update Hub -</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,7 +129,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-</head>
+<link rel="alternate" type="application/rss+xml" title="Prusa Legacy Update Hub" href="blog.xml" data-external="1"></head>
 
 <body class="nav-fixed">
 
@@ -152,10 +152,44 @@ window.Quarto = {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./printers.html"> 
-<span class="menu-text">3D Printers</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about/site.html">
+ <span class="dropdown-text">Site</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./about/founder.html">
+ <span class="dropdown-text">Founder</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-d-printers" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">3D Printers</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-d-printers">    
+        <li>
+    <a class="dropdown-item" href="./printers/mk3.html">
+ <span class="dropdown-text">Prusa i3 MK3/S/+</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./printers/mk2.html">
+ <span class="dropdown-text">Prusa MK2/2.5S/3S</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./printers/mini.html">
+ <span class="dropdown-text">Prusa MINI+</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./printers/clones.html">
+ <span class="dropdown-text">Clones</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./materials.html"> 
 <span class="menu-text">Materials</span></a>
@@ -173,12 +207,15 @@ window.Quarto = {
 <span class="menu-text">Community</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./support.html"> 
-<span class="menu-text">Support</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -193,27 +230,11 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 
@@ -222,7 +243,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1719930556389" data-listing-reading-time-sort="2" data-listing-word-count-sort="224">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1719963340187" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
 <a href="./blog/best-practices-for assembling-prusa-kit.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -235,54 +256,136 @@ Assembling a DIY Prusa i3 MK3S+ kit can be a rewarding experience, offering a de
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-
+Michael Borck
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1719930855571" data-listing-reading-time-sort="3" data-listing-word-count-sort="431">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1719965296520" data-listing-reading-time-sort="4" data-listing-word-count-sort="662">
+<a href="./blog/mendel-i2-2024.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Building a Modernized Prusa Mendel (Iteration 2) in 2024: A Proof of Concept
+</h5>
+<div class="card-text listing-description">
+In the world of 3D printing, the Prusa Mendel (iteration 2) holds a special place as one of the pioneering designs that helped popularize desktop 3D printing. While it may…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Michael Borck
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1719962474094" data-listing-reading-time-sort="3" data-listing-word-count-sort="480">
+<a href="./blog/choosing-you-prusa.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Chooosing YOur Prusa 3D Printer
+</h5>
+<div class="card-text listing-description">
+While brands like Creality and Anycubic offer popular alternatives, Prusa has carved out a reputation for quality and reliability. This article focuses on your options…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Michael Borck
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1719962508318" data-listing-reading-time-sort="3" data-listing-word-count-sort="424">
 <a href="./blog/diy-clone-or-kit.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Choosing Your Prusa 3D Printer Path: DIY, Clone, or Official Kit?
+DIY, Clone, or Official Kit?
 </h5>
 <div class="card-text listing-description">
 As 3D printing continues to revolutionize prototyping and manufacturing, many enthusiasts find themselves drawn to the renowned Prusa brand. But with multiple paths to…
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-
+Michael Borck
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1719930969330" data-listing-reading-time-sort="3" data-listing-word-count-sort="484">
-<a href="./blog/choosing-you-prusa.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1719963948294" data-listing-reading-time-sort="3" data-listing-word-count-sort="561">
+<a href="./blog/dolly-or-prusa.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Cost vs.&nbsp;Quality
+Dolly of Prusa? A 3D Printing Enthusiast’s Conundrum
 </h5>
 <div class="card-text listing-description">
-Choosing Your Prusa 3D Printer
+Tom’s Dolly Prusa project from 2014 was an inspiration. Seeing him craft a 3D printer out of wood, overcoming obstacles along the way, was truly remarkable. It sparked a…
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-
+Michael Borck
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1719928909077" data-listing-reading-time-sort="4" data-listing-word-count-sort="699">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1719963739564" data-listing-reading-time-sort="2" data-listing-word-count-sort="312">
+<a href="./blog/history-prusa-i3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+History of Prusa
+</h5>
+<div class="card-text listing-description">
+The Prusa i3, a family of fused deposition modeling 3D printers, was first designed by Josef Průša in 2012 and released as a commercial kit in 2015.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Michael Borck
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1719963699056" data-listing-reading-time-sort="9" data-listing-word-count-sort="1720">
+<a href="./blog/multicolour.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://blog.prusa3d.com/wp-content/uploads/2023/07/1.-MMU3-celek-3-640x360.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+MMU1: Pros and Cons
+</h5>
+<div class="card-text listing-description">
+The Prusa Multi Material Upgrade (MMU) has significantly transformed the landscape of consumer-grade 3D printing by enabling multi-color and multi-material prints with a…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Michael Borck
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1719963472606" data-listing-reading-time-sort="4" data-listing-word-count-sort="694">
 <a href="./blog/the-myth-of-upgrading.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -295,14 +398,14 @@ In the world of 3D printing, there’s a common belief that upgrading to the lat
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-
+Michael Borck
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1719929240307" data-listing-reading-time-sort="4" data-listing-word-count-sort="636">
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1719962759964" data-listing-reading-time-sort="4" data-listing-word-count-sort="633">
 <a href="./blog/original-vs-copy.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -315,24 +418,7 @@ When it comes to maintaining or upgrading your Prusa 3D printer, you have a choi
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1719931983703" data-listing-reading-time-sort="3" data-listing-word-count-sort="568">
-<a href="./blog/dolly-or-prusa.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<div class="card-text listing-description">
-<strong>Dolly or Prusa? A 3D Printing Enthusiast’s Conundrum</strong>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
+Michael Borck
 </div>
 </div>
 </div>
@@ -425,7 +511,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/michael-borck\.github\.io\/prusalegacy\.com\/");
+      var filterRegex = new RegExp("https:\/\/prusalegacy\.com\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

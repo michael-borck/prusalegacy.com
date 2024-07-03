@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Prusa Legacy Update Hub - Prusa i3 MK3S+</title>
+<title>Prusa Legacy Update Hub - Prusa Mini</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,10 +92,44 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../printers.html"> 
-<span class="menu-text">3D Printers</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../about/site.html">
+ <span class="dropdown-text">Site</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../about/founder.html">
+ <span class="dropdown-text">Founder</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-d-printers" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">3D Printers</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-d-printers">    
+        <li>
+    <a class="dropdown-item" href="../printers/mk3.html">
+ <span class="dropdown-text">Prusa i3 MK3/S/+</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../printers/mk2.html">
+ <span class="dropdown-text">Prusa MK2/2.5S/3S</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../printers/mini.html">
+ <span class="dropdown-text">Prusa MINI+</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../printers/clones.html">
+ <span class="dropdown-text">Clones</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../materials.html"> 
 <span class="menu-text">Materials</span></a>
@@ -113,12 +147,15 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Community</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../support.html"> 
-<span class="menu-text">Support</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -136,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#prusa-i3-mk3s" id="toc-prusa-i3-mk3s" class="nav-link active" data-scroll-target="#prusa-i3-mk3s">Prusa i3 MK3S+</a></li>
+  <li><a href="#prusa-mini" id="toc-prusa-mini" class="nav-link active" data-scroll-target="#prusa-mini">Prusa Mini</a></li>
   </ul>
 </nav>
     </div>
@@ -145,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Prusa i3 MK3S+</h1>
+<h1 class="title">Prusa Mini</h1>
 </div>
 
 
@@ -162,16 +199,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="prusa-i3-mk3s" class="level2">
-<h2 class="anchored" data-anchor-id="prusa-i3-mk3s">Prusa i3 MK3S+</h2>
-<p>Our flagship 3D printer, perfect for professionals and enthusiasts alike.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/prusa-i3-mk3s.jpg" class="img-fluid figure-img"></p>
-<figcaption>Prusa i3 MK3S+</figcaption>
-</figure>
-</div>
-<p><a href="#">Learn More</a></p>
+<section id="prusa-mini" class="level2">
+<h2 class="anchored" data-anchor-id="prusa-mini">Prusa Mini</h2>
 
 
 </section>
@@ -258,7 +287,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/michael-borck\.github\.io\/prusalegacy\.com\/");
+      var filterRegex = new RegExp("https:\/\/prusalegacy\.com\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

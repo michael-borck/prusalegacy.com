@@ -3,19 +3,24 @@
     "listing": "/blog.html",
     "items": [
       "/blog/best-practices-for assembling-prusa-kit.html",
-      "/blog/diy-clone-or-kit.html",
+      "/blog/mendel-i2-2024.html",
       "/blog/choosing-you-prusa.html",
+      "/blog/diy-clone-or-kit.html",
+      "/blog/dolly-or-prusa.html",
+      "/blog/history-prusa-i3.html",
+      "/blog/multicolour.html",
       "/blog/the-myth-of-upgrading.html",
-      "/blog/original-vs-copy.html",
-      "/blog/dolly-or-prusa.html"
+      "/blog/original-vs-copy.html"
     ]
   },
   {
     "listing": "/printers.html",
     "items": [
-      "/printers/xl.html",
+      "/printers/mendel.html",
+      "/printers/mk2.html",
       "/printers/mini.html",
-      "/printers/mk3s.html"
+      "/printers/mk3.html",
+      "/printers/clones.html"
     ]
   }
 ]
