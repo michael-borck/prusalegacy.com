@@ -1,4 +1,7 @@
-# Best Practices for DIY Prusa 
+---
+title: "Best Practices for DIY Prusa"
+author: Michael Borck
+---
 
 Assembling a DIY Prusa i3 MK3S+ kit can be a rewarding experience, offering a deep understanding of the printer's mechanics while saving on costs. This guide outlines key best practices to ensure a smooth assembly process, from utilizing the online manual to organizing parts and taking a methodical approach to construction.
 

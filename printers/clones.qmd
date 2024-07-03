@@ -1,6 +1,6 @@
 ---
-title: "Prusa Mini"
+title: "i3 Clones"
 image: "/images/stylistic-mk3s.png"
 ---
 
-## Prusa Mini
+## i3 Clones

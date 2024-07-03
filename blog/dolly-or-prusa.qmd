@@ -1,7 +1,9 @@
-**Dolly or Prusa? A 3D Printing Enthusiast's Conundrum**
+---
+title: Dolly of Prusa? A 3D Printing Enthusiast's Conundrum
+author: Michael Borck
+---
 
-
-Tom's Dolly Prusa project was an inspiration. Seeing him craft a 3D printer out of wood, overcoming obstacles along the way, was truly remarkable. It sparked a question many of us have pondered: should we embark on a similar DIY adventure or opt for the tried-and-true Original Prusa?
+Tom's Dolly Prusa project from 2014 was an inspiration. Seeing him craft a 3D printer out of wood, overcoming obstacles along the way, was truly remarkable. It sparked a question many of us have pondered: should we embark on a similar DIY adventure or opt for the tried-and-true Original Prusa?
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=MZNdSjsRkysO5MED&amp;list=PLDJMid0lOOYkdh8jCqIw7AFIHQiuKbSKZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -9,7 +11,7 @@ Tom's Dolly Prusa project was an inspiration. Seeing him craft a 3D printer out 
 
 If you're a tinkerer at heart, eager to delve into the intricacies of 3D printing technology, then by all means, build a Dolly! But here's my advice: start with an Original Prusa. It allows you to print parts, access genuine components from the Prusa Store, and most importantly, it ensures you have a reliable printer at your disposal while you experiment with your DIY project.
 
-**My Own 3D Printing Odyssey**
+## My Own 3D Printing Odyssey
 
 I've been chasing the dream of replicating one of Josef Prusa's machines since his early days on the RepRap scene. Back then, affordable 3D printers were nonexistent, and the available options were exorbitantly priced. His elegant "wedge" design was the perfect starting point for me.
 
@@ -21,14 +23,14 @@ In pursuit of a better board than the Ramps 1.4, I opted for the SmoothieBoard, 
 
 Unfortunately, not owning an Original Prusa meant I couldn't easily source parts from the Prusa Store. I turned to AliExpress and eBay, only to end up with inferior versions that often malfunctioned. Countless hours were spent soldering, crimping, and rewiring. Yet, I remain determined to see this project through to the end.
 
-**The Costly Lesson**
+## The Costly Lesson
 
-Recently, I added up all my expenses for those seemingly inexpensive $12 parts and was astounded to discover that I had spent over $400. If I had simply saved up and purchased an Original Prusa, I could have bypassed these headaches and enjoyed assembling a reliable kit like everyone else. (Yes, there's definitely some regret in hindsight.)
+Recently, I added up all my expenses for those seemingly inexpensive parts and was astounded to discover that I had spent over $400. If I had simply saved up and purchased an Original Prusa, I could have bypassed these headaches and enjoyed assembling a reliable kit like everyone else. (Yes, there's definitely some regret in hindsight.)
 
-**The Joy and Frustration of Building**
+## The Joy and Frustration of Building
 
 Building a Dolly has been a thrilling, albeit frustrating, journey. If I succeed in getting this printer to work, I'll be immensely proud. But in the end, my goal was simply to design and print models.
 
-**The Verdict**
+## The Verdict
 
 So, should you make a Dolly Prusa or buy the Original? If you thrive on tinkering and problem-solving, building a Dolly can be incredibly rewarding. However, if you seek a seamless 3D printing experience, investing in an Original Prusa first is the wisest choice. It grants you a reliable printer to utilize while you explore your DIY aspirations.

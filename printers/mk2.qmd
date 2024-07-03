@@ -1,6 +1,6 @@
 ---
-title: "Prusa Mini"
+title: "Prusa MK2"
 image: "/images/stylistic-mk3s.png"
 ---
 
-## Prusa Mini
+## The Prusa MK2 Family

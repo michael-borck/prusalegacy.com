@@ -1,6 +1,9 @@
 ---
-title: Blog
+title: ""
 listing:
   contents: blog
   type: grid
+  categories: true
+  feed:
+    categories: [news, posts]
 ---

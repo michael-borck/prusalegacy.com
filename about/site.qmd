@@ -1,0 +1,34 @@
+---
+title: About Prusa Legacy Upgrade Hub
+author: Michale Borck
+---
+
+# Curating the Best of Prusa i3
+
+Welcome to the Prusa Legacy Upgrade Hub – your meticulously curated gateway to the vast world of Prusa i3 knowledge and upgrades. We're not just another 3D printing site; we're passionate Prusa enthusiasts on a mission to help you squeeze every last bit of potential from your beloved i3.
+
+## What We Do
+
+In the vast ocean of 3D printing information, we're your compass. Our team of dedicated makers and Prusa aficionados scour the web, forums, and maker spaces to bring you:
+
+- **Carefully Vetted Upgrades**: We test, we tinker, and we only recommend modifications that truly enhance your Prusa's performance.
+- **Comprehensive Guides**: Step-by-step instructions that demystify even the most complex upgrades.
+- **Community Wisdom**: We tap into the collective knowledge of Prusa users worldwide, bringing you tried-and-true tips and tricks.
+- **Cutting-Edge Innovations**: Stay ahead of the curve with the latest advancements in Prusa i3 technology.
+
+## Our Philosophy
+
+We believe that a Prusa i3 is more than just a printer – it's a platform for innovation and creativity. Our opinionated approach means we're not afraid to tell you what works best based on our extensive experience. We're here to:
+
+- Extend the life of your printer
+- Maximize its capabilities
+- Foster a community of skilled Prusa users
+- Promote sustainable making practices
+
+## Join Our Community
+
+Whether you're nursing an original Mendel back to health or pushing your MK3S+ to its limits, you've found your tribe. Dive into our resources, join the discussion, and let's keep the Prusa legacy alive and printing.
+
+Remember, in the world of 3D printing, age is just a number. With the right upgrades and know-how, your Prusa i3 can outperform even the newest models on the block.
+
+Let's print the future with the printers of the past!

@@ -1,4 +1,7 @@
-Choosing Your Prusa 3D Printer
+---
+title: "Chooosing YOur Prusa 3D Printer"
+author: Michael Borck
+---
 
 While brands like Creality and Anycubic offer popular alternatives, Prusa has carved out a reputation for quality and reliability. This article focuses on your options within the Prusa ecosystem.
 

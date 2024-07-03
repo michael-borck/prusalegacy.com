@@ -1,8 +1,11 @@
-### The Pros and Cons of Buying Original Prusa Parts vs. Copies from AliExpress
+---
+title: "The Pros and Cons of Buying Original Prusa Parts vs. Copies from AliExpress"
+author: Michael Borck
+---
 
 When it comes to maintaining or upgrading your Prusa 3D printer, you have a choice: purchase original parts directly from Prusa or opt for cheaper alternatives from sites like AliExpress. Both options have their advantages and disadvantages, which can impact your printer’s performance, durability, and overall experience. Here's a detailed look at the pros and cons of each option to help you make an informed decision.
 
-#### Original Prusa Parts
+## Original Prusa Parts
 
 **Pros:**
 
@@ -29,7 +32,7 @@ When it comes to maintaining or upgrading your Prusa 3D printer, you have a choi
 2. **Availability:**
    - Sometimes, original parts may be out of stock or have longer shipping times, which can delay your projects if you’re in urgent need of a replacement.
 
-#### Copies from AliExpress
+## Copies from AliExpress
 
 **Pros:**
 
@@ -59,7 +62,7 @@ When it comes to maintaining or upgrading your Prusa 3D printer, you have a choi
 5. **Risk of Counterfeits:**
    - There is a risk of receiving counterfeit products that claim to be of high quality but fail to meet basic standards. This can be particularly problematic if you rely on critical components.
 
-### Conclusion
+## Conclusion
 
 Choosing between original Prusa parts and copies from AliExpress depends on your specific needs, budget, and priorities. If quality, compatibility, and support are your primary concerns, investing in original Prusa parts is the better choice. However, if cost savings and availability are more important, AliExpress can provide affordable alternatives. Just be aware of the potential trade-offs in terms of quality and support.
 

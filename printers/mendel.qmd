@@ -1,6 +1,6 @@
 ---
-title: "Prusa Mini"
+title: "Mendel /i2/90"
 image: "/images/stylistic-mk3s.png"
 ---
 
-## Prusa Mini
+## Mendel

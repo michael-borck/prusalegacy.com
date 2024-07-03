@@ -1,0 +1,53 @@
+---
+title: "Building a Modernized Prusa Mendel (Iteration 2) in 2024: A Proof of Concept"
+author: Michael Borck
+---
+
+In the world of 3D printing, the Prusa Mendel (iteration 2) holds a special place as one of the pioneering designs that helped popularize desktop 3D printing. While it may be considered outdated by today's standards, there's an intriguing challenge in modernizing this classic design with contemporary components. This article explores the concept of building an updated Prusa Mendel (i2) in 2024, not as a cost-effective solution, but as a proof of concept demonstrating that quality prints can be achieved with any printer design when equipped with modern technology.
+
+## The Foundation: Prusa Mendel (i2) Frame
+
+The core of this build remains the iconic triangular frame of the Prusa Mendel (i2). This design, while dated, provides a solid foundation for our modernization efforts. We'll retain the original frame geometry and motor placements, which will serve as a familiar starting point for those acquainted with the i2 design.
+
+## Modern Hot-End: E3D V6
+
+One of the most significant upgrades in this build is the incorporation of the E3D V6 hot-end. This all-metal hot-end is known for its reliability and versatility, capable of handling a wide range of filaments at higher temperatures. The E3D V6 will greatly enhance the printer's capabilities, allowing for experimentation with more advanced materials that weren't feasible with the original i2 design[3].
+
+## Advanced Bed Leveling: SuperPINDA
+
+To improve print bed adhesion and first layer quality, we'll be integrating a SuperPINDA probe. This advanced bed leveling sensor offers improved temperature stability and accuracy compared to the original PINDA probe, ensuring consistent and precise bed leveling across various printing conditions[7].
+
+## Filament Sensor and 12V Heat Bed
+
+Adding a filament sensor will help prevent print failures due to filament runout or jams. For the print bed, we'll be using a 12V heat bed, which, while not as quick to heat as some modern 24V options, will still provide adequate heating for most common filaments.
+
+## Control Board: RAMPS with 2004 LCD
+
+For the brain of our modernized i2, we'll be using a RAMPS (RepRap Arduino Mega Pololu Shield) board paired with a 2004 LCD display. This combination offers a good balance of functionality and compatibility with our chosen components. To give the printer a more Prusa-like feel, we'll be using modified Prusa firmware, which will provide a familiar interface for those accustomed to Prusa printers[8].
+
+## Klipper and Input Shaping
+
+To truly bring this printer into 2024, we'll be implementing Klipper firmware along with input shaping. Klipper allows for offloading complex calculations to a more powerful host computer, potentially improving print speeds and quality. Input shaping, a feature of Klipper, can help reduce ringing and ghosting in prints, compensating for some of the inherent vibrations in the i2's frame design.
+
+## Cost-Effectiveness and Purpose
+
+It's important to note that this build is not intended to be cost-effective. In fact, the cost of modernizing a Prusa Mendel (i2) with these components will likely exceed that of many current, more capable 3D printers. The purpose of this build is purely as a proof of concept, demonstrating that with the right modern components and firmware, even an older design can produce high-quality prints.
+
+## Conclusion
+
+Building a modernized Prusa Mendel (i2) in 2024 is an interesting exercise in combining classic design with contemporary technology. While not practical from a cost or efficiency standpoint, it serves as a testament to the adaptability of 3D printer designs and the rapid advancements in 3D printing technology. This project showcases that with the right upgrades - a modern hot-end like the E3D V6, advanced bed leveling with SuperPINDA, and cutting-edge firmware like Klipper with input shaping - even a printer design from over a decade ago can produce prints that rival those of modern machines.
+
+For those interested in 3D printing history or looking for a unique project, this modernized i2 build offers a blend of nostalgia and current technology. However, for those seeking a practical, cost-effective 3D printing solution, there are many modern printers available that offer superior performance out of the box without the need for extensive modifications.
+
+Citations:
+[1] https://reprap.org/wiki/Prusa_Mendel_%28iteration_2%29
+[2] https://reprap.org/wiki/Prusa_Mendel
+[3] https://e3d-online.com/products/v6-all-metal-hotend
+[4] https://www.3dprintergear.com.au/prusa-super-pinda-bed-levelling-probe
+[5] https://www.ebay.com.au/itm/254630578105
+[6] https://forum.prusa3d.com/forum/original-prusa-i3-mk3s-mk3-hardware-firmware-and-software-help/how-do-i-modify-the-firmware-to-allow-a-taller-nozzle-to-work/
+[7] https://forum.prusa3d.com/forum/original-prusa-i3-mk3s-mk3-hardware-firmware-and-software-help/super-pinda-setup/
+[8] https://forum.prusa3d.com/forum/original-prusa-i3-mk3s-mk3-prusa-i3-kit-archive/ramps-1.4-lcd-to-rambo-mini/
+[9] https://www.reddit.com/r/Reprap/comments/gjghdv/prusa_mendel_i2_build/
+[10] https://www.3dprintedparts.com/2021/01/15/how-is-3d-printing-cost-effective/
+[11] https://www.ignitec.com/insights/are-3d-printing-costs-expensive-and-is-it-a-viable-manufacturing-option/

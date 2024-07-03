@@ -3,21 +3,30 @@ project:
   
 website:
   title: "Prusa Legacy Update Hub"
+  site-url: https://prusalegacy.com/
+  description: "Old Printers, New Possibilities"
   navbar:
     background: primary
     search: true
     left:
       - text: "Home"
         href: index.qmd
-      - text: "3D Printers"
-        href: printers.qmd
+      - text: About
         menu:
-          - text: "Prusa i3 MK3S+"
-            href: printers/mk3s.qmd
+          - text: "Site"
+            href: about/site.qmd
+          - text: Founder
+            href: about/founder.qmd
+      - text: "3D Printers"
+        menu:
+          - text: "Prusa i3 MK3/S/+"
+            href: printers/mk3.qmd
+          - text: "Prusa MK2/2.5S/3S"
+            href: printers/mk2.qmd
           - text: "Prusa MINI+"
             href: printers/mini.qmd
-          - text: "Prusa XL"
-            href: printers/xl.qmd
+          - text: Clones
+            href: printers/clones.qmd
       - text: "Materials"
         href: materials.qmd
       - text: "Software"
@@ -26,19 +35,18 @@ website:
         href: firmware.qmd
       - text: "Community"
         href: community.qmd
-      - text: "Support"
-        href: support.qmd
       - text: "Blog"
         href: blog.qmd
+    right:
+      - icon: rss
+        href: index.xml
     page-footer: 
-    center: | 
-      <a href="https://lordicon.com/">Icons by Lordicon.com</a>
-
+      center: | 
+        <a href="https://prusalegacy.com/">Prusa Legacy Update Hub</a> &copy; 2024
+        <a href="https://lordicon.com/">Icons by Lordicon.com</a>
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-

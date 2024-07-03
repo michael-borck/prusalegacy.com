@@ -1,0 +1,36 @@
+---
+title: History of Prusa
+author: Michael Borck
+description: "The Prusa i3, a family of fused deposition modeling 3D printers, was first designed by Josef Průša in 2012 and released as a commercial kit in 2015."
+---
+
+
+1. **Origins and Development**:
+   - The Prusa i3, a family of fused deposition modeling 3D printers, was first designed by Josef Průša in 2012 and released as a commercial kit in 2015.
+   
+2. **Popularity**:
+   - In 2016, the Prusa i3 was recognized as the most used 3D printer in the world, largely due to its low cost, ease of construction, and modification.
+
+3. **Open Source Influence**:
+   - Released under an open-source license, the Prusa i3 design has inspired numerous variants and clones produced by other companies and individuals.
+
+4. **Model Iterations**:
+   - The Prusa i3 has seen multiple iterations, including the MK2, MK2S, MK3, MK3S, and the latest MK4, each with significant improvements and new features.
+
+5. **Key Features**:
+   - Notable features across models include mesh bed leveling, automatic geometry skew correction, improved build volume, custom stepper motors, and various advanced sensors for better print quality.
+
+6. **Materials and Construction**:
+   - The printers use 3D printing filament for parts, and their designs have evolved from threaded rods and printed bushings to aluminum extrusions and more robust frame structures.
+
+7. **Recognition and Awards**:
+   - Prusa i3 models have received several awards, including Best Overall 3D Printer from Make: Magazine and recognition from 3D Printing Industry and All3DP.
+
+8. **Control Systems**:
+   - Prusa i3 printers have transitioned from using Arduino-based controllers to more advanced boards like the Einsy Rambo and xBuddy, featuring Marlin 3D printing firmware.
+
+9. **Innovation in Features**:
+   - The MK3 introduced features like a filament detector, error-correcting stepper motor drivers, and power outage recovery. The MK4 added input shaping, pressure advance, and modular hot end systems.
+
+10. **Expansion and Variants**:
+    - Beyond the i3 series, Prusa Research has developed other models like the SL1, Mini, and XL, leveraging different printing technologies and designs for various applications.

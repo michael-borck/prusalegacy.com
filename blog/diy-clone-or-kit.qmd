@@ -1,4 +1,8 @@
-# Choosing Your Prusa 3D Printer Path: DIY, Clone, or Official Kit?
+---
+title: "DIY, Clone, or Official Kit?"
+author: Michael Borck
+---
+
 
 As 3D printing continues to revolutionize prototyping and manufacturing, many enthusiasts find themselves drawn to the renowned Prusa brand. But with multiple paths to owning a Prusa-style printer, which option should you choose? Let's dive into the world of 3D printing and explore three popular approaches: building a clone from scratch, purchasing a clone from AliExpress, or investing in an official Prusa kit.
 
